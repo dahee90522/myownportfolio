@@ -4,7 +4,9 @@ var number1 = 0,
     number4 = 0,
     number5 = 0,
     number6 = 0,
-    number7 = 0;
+    number7 = 0,
+    number8 = 0,
+    number9 = 0;
 var img1 = new Array("img/port1_1.JPG", "img/port1_2.JPG", "img/port1_3.JPG", "img/port1_4.JPG");
 var img2 = new Array("img/port2_1.png", "img/port2_2.png", "img/port2_3.png", "img/port2_4.png", "img/port2_5.png", "img/port2_6.png");
 var img3 = new Array("img/port3_1.png", "img/port3_2.png", "img/port3_3.png", "img/port3_4.png");
@@ -13,6 +15,7 @@ var img5 = new Array("img/port5_1.PNG", "img/port5_2.PNG", "img/port5_3.png", "i
 var img6 = new Array("img/port6_1.PNG", "img/port6_2.PNG", "img/port6_3.PNG", "img/port6_4.PNG");
 var img7 = new Array("img/port7_1.PNG", "img/port7_2.PNG");
 var img8 = new Array("img/1_1.jpg", "img/1_2.JPG", "img/1_3.JPG", "img/1_4.JPG", "img/1_5.JPG");
+var img9 = new Array("img/port9_1.PNG", "img/port9_2.PNG");
 
 function next(n) {
     if (n == 1) {
@@ -71,5 +74,12 @@ function next(n) {
             number8 = 0;
         }
         document.getElementById("img8").src = "https://github.com/dahee90522/myownportfolio/blob/master/web/" + img8[number8] + "?raw=true";
+    }
+    if (n == 9) {
+        number9 += 1;
+        if (number9 >= img9.length) {
+            number9 = 0;
+        }
+        document.getElementById("img9").src = "https://github.com/dahee90522/myownportfolio/blob/master/web/" + img9[number8] + "?raw=true";
     }
 }
