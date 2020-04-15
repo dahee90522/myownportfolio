@@ -80,6 +80,6 @@ function next(n) {
         if (number9 >= img9.length) {
             number9 = 0;
         }
-        document.getElementById("img9").src = "https://github.com/dahee90522/myownportfolio/blob/master/web/" + img9[number8] + "?raw=true";
+        document.getElementById("img9").src = "https://github.com/dahee90522/myownportfolio/blob/master/web/" + img9[number9] + "?raw=true";
     }
 }
