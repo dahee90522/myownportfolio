@@ -5,7 +5,6 @@ var number1 = 0,
     number5 = 0,
     number6 = 0,
     number7 = 0;
-var imgnum = new Array("img1", "img2")
 var img1 = new Array("img/port1_1.jpg", "img/port1_2.jpg", "img/port1_3.jpg", "img/port1_4.jpg");
 var img2 = new Array("img/port2_1.png", "img/port2_2.png", "img/port2_3.png", "img/port2_4.png", "img/port2_5.png", "img/port2_6.png");
 var img3 = new Array("img/port3_1.png", "img/port3_2.png", "img/port3_3.png", "img/port3_4.png");
