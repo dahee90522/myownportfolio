@@ -201,6 +201,7 @@ h3 {
 
     .pf .cont {
         width: 100%;
+        min-width: fit-content;
     }
 }
 
